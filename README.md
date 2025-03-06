@@ -1,5 +1,9 @@
+# About this package
+This package is part of the Dogma Solutions *"Foundation"* project.  
+For more details, see the list of packages below.
+
 # Dogma Solutions Foundation
-The Dogma Solutions *"Foundation"* project was born in 2005, and is an attempt to provide a basic and modern set of (opinionated):
+The Dogma Solutions *"Foundation"* project (2005-2025) is an attempt to provide a basic and modern set of (opinionated):
 - Interfaces and abstractions for objects, DTOs, an entities modeling
 - Recyclable low-level functionalities
 - Simple implementations of most common design patterns
@@ -13,26 +17,26 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 2. MINOR version when you add functionality in a backward compatible manner
 3. PATCH version when you make backward compatible bug fixes
 
-Additional labels for pre-release and build metadata are available
-as extensions to the MAJOR.MINOR.PATCH format.
+Additional labels for pre-release and build metadata are available as extensions
+to the MAJOR.MINOR.PATCH format.
 ```
 
 
 # Supported .NET versions
 Different versions of the packages, support a different set of .NET versions:
 
-| Package version 	   | Supported .NET versions 	                            | Remarks (compared to previous version)       |   
-|---------------------|------------------------------------------------------|----------------------------------------------| 
-| 5.*             	   | netstandard2.0, net6.0, net7.0, net8.0, net9.0  	  | Added net9.0, dropped net472                 |
-| 4.3.*             	 | netstandard2.0, net472, net5.0, net6.0, net7.0, net8.0 |                                              |
-| 4.2.*             	 | netstandard2.0, net472, net5.0, net6.0, net7.0, net8.0 | Added net7.0 & net8.0                        |
-| 4.1.*             	 | netstandard2.0, net472, net5.0, net6.0  	            |                                              |
-| 4.0.*             	 | netstandard2.0, net472, net5.0, net6.0  	            |                                              |
-| 3.2.*             	 | netstandard2.0, net472, net5.0, net6.0  	            |                                              |
-| 3.1.*             	 | netstandard2.0, net472, net5.0, net6.0  	            | Added net5.0 & net6.0                        |
-| 3.0.*             	 | netstandard2.0, net472  	                            |                                              |
-| 2.0.*             	 | netstandard2.0, net472  	                            | Added netstandard2.0 & net472, dropped net46 |
-| 1.0.*             	 | net46  	                                             |                                              |
+| Package version 	   | Status       | Supported .NET versions 	                              | Remarks (compared to previous version)       |   
+|---------------------|--------------|--------------------------------------------------------|----------------------------------------------| 
+| 5.0.*             	 | ✅ Current    | netstandard2.0, net6.0, net7.0, net8.0, net9.0  	      | Added net9.0, dropped net472                 |
+| 4.3.*             	 | ✅ Maintained | netstandard2.0, net472, net5.0, net6.0, net7.0, net8.0 |                                              |
+| 4.2.*             	 | ⚠ Obsolete   | netstandard2.0, net472, net5.0, net6.0, net7.0, net8.0 | Added net7.0 & net8.0                        |
+| 4.1.*             	 | ❌ EOS        | netstandard2.0, net472, net5.0, net6.0  	              |                                              |
+| 4.0.*             	 | ❌ EOS        | netstandard2.0, net472, net5.0, net6.0  	              |                                              |
+| 3.2.*             	 | ❌ EOS        | netstandard2.0, net472, net5.0, net6.0  	              |                                              |
+| 3.1.*             	 | ❌ EOS        | netstandard2.0, net472, net5.0, net6.0  	              | Added net5.0 & net6.0                        |
+| 3.0.*             	 | ❌ EOS        | netstandard2.0, net472  	                              |                                              |
+| 2.0.*             	 | ❌ EOS        | netstandard2.0, net472  	                              | Added netstandard2.0 & net472, dropped net46 |
+| 1.0.*             	 | ❌ EOS        | net46  	                                               |                                              |
  
 
 ---
@@ -61,6 +65,8 @@ Here follows a list of NuGet packages aggregated by topic.
 - [![DogmaSolutions.AspNetCore.Security on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.AspNetCore.Security.svg)](https://www.nuget.org/packages/DogmaSolutions.AspNetCore.Security/) DogmaSolutions.AspNetCore.Security
 - [![DogmaSolutions.Security on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Security.svg)](https://www.nuget.org/packages/DogmaSolutions.Security/) DogmaSolutions.Security
 - [![DogmaSolutions.Security.Ldap on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Security.Ldap.svg)](https://www.nuget.org/packages/DogmaSolutions.Security.Ldap/) DogmaSolutions.Security.Ldap
+- [![DogmaSolutions.EntityFrameworkCore.Encryption on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Encryption.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Encryption/) DogmaSolutions.EntityFrameworkCore.Encryption
+- [![DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions/) DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions
 
 ## Primitives, data modeling and data manipulation
 - [![DogmaSolutions.Contracts on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Contracts.svg)](https://www.nuget.org/packages/DogmaSolutions.Contracts/) DogmaSolutions.Contracts
@@ -131,6 +137,8 @@ Here follows a list of NuGet packages aggregated by topic.
 - [![DogmaSolutions.EntityFrameworkCore.Secured on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Secured.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Secured/) DogmaSolutions.EntityFrameworkCore.Secured
 - [![DogmaSolutions.EntityFrameworkCore.Unsecured on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Unsecured.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Unsecured/) DogmaSolutions.EntityFrameworkCore.Unsecured
 - [![DogmaSolutions.EntityFrameworkCore.Utils on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Utils.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Utils/) DogmaSolutions.EntityFrameworkCore.Utils
+- [![DogmaSolutions.EntityFrameworkCore.Encryption on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Encryption.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Encryption/) DogmaSolutions.EntityFrameworkCore.Encryption
+- [![DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions/) DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions
 - [![DogmaSolutions.SqlServer.LocalDb on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.SqlServer.LocalDb.svg)](https://www.nuget.org/packages/DogmaSolutions.SqlServer.LocalDb/) DogmaSolutions.SqlServer.LocalDb
 
 ## Plugins and extensibility
