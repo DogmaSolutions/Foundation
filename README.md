@@ -1,14 +1,12 @@
-# About this package
-This package is part of the Dogma Solutions *"Foundation"* project.  
-For more details, see the list of packages below.
-
 # Dogma Solutions Foundation
 The Dogma Solutions *"Foundation"* project (2005-2025) is an attempt to provide a basic and modern set of (opinionated):
 - Interfaces and abstractions for objects, DTOs, an entities modeling
 - Recyclable low-level functionalities
 - Simple implementations of most common design patterns
 
-# Versioning criteria
+---
+
+# Versions history and versioning criteria
 All packages follows the conventions of [Semantic Versioning 2.0.0](https://semver.org/).  
 Cit.:
 ```
@@ -21,23 +19,81 @@ Additional labels for pre-release and build metadata are available as extensions
 to the MAJOR.MINOR.PATCH format.
 ```
 
+## ✅ v6.0 - Current
+- **First release date**: October 2025
+- **.NET versions**: netstandard2.0, net7.0, net8.0, net9.0
+- ❌ Dropped support to net6.0
+- *️⃣ Changed references to [OPC Foundation 1.5](https://www.nuget.org/packages/OPCFoundation.NetStandard.Opc.Ua) (previously was 1.4)
 
-# Supported .NET versions
-Different versions of the packages, support a different set of .NET versions:
+## ✅ v5.1 - Maintained
+- **First release date**: 2025/09/03
+- **.NET versions**: netstandard2.0, net6.0, net7.0, net8.0, net9.0
+- 🆕 Added CycloneDX SBOM functionalities
+- 🆕 Added SPDX SBOM functionalities
+- 💡 Use [OPC Foundation 1.4](https://www.nuget.org/packages/OPCFoundation.NetStandard.Opc.Ua)
 
-| Package version 	   | Status       | Supported .NET versions 	                              | Remarks (compared to previous version)       |   
-|---------------------|--------------|--------------------------------------------------------|----------------------------------------------| 
-| 5.0.*             	 | ✅ Current    | netstandard2.0, net6.0, net7.0, net8.0, net9.0  	      | Added net9.0, dropped net472                 |
-| 4.3.*             	 | ✅ Maintained | netstandard2.0, net472, net5.0, net6.0, net7.0, net8.0 |                                              |
-| 4.2.*             	 | ⚠ Obsolete   | netstandard2.0, net472, net5.0, net6.0, net7.0, net8.0 | Added net7.0 & net8.0                        |
-| 4.1.*             	 | ❌ EOS        | netstandard2.0, net472, net5.0, net6.0  	              |                                              |
-| 4.0.*             	 | ❌ EOS        | netstandard2.0, net472, net5.0, net6.0  	              |                                              |
-| 3.2.*             	 | ❌ EOS        | netstandard2.0, net472, net5.0, net6.0  	              |                                              |
-| 3.1.*             	 | ❌ EOS        | netstandard2.0, net472, net5.0, net6.0  	              | Added net5.0 & net6.0                        |
-| 3.0.*             	 | ❌ EOS        | netstandard2.0, net472  	                              |                                              |
-| 2.0.*             	 | ❌ EOS        | netstandard2.0, net472  	                              | Added netstandard2.0 & net472, dropped net46 |
-| 1.0.*             	 | ❌ EOS        | net46  	                                               |                                              |
- 
+## ✅ v5.0 - Maintained
+- **First release date**: 2025/02/19
+- **.NET versions**: netstandard2.0, net6.0, net7.0, net8.0, net9.0
+- 🆕 Added support to net9.0
+- ❌ Dropped support to net472
+- 💡 Use [OPC Foundation 1.4](https://www.nuget.org/packages/OPCFoundation.NetStandard.Opc.Ua)
+
+
+## ✅ v4.5 - Maintained
+- **First release date**: 2025/10/01
+- **.NET versions**: netstandard2.0, net472, net5.0, net6.0, net7.0, net8.0
+- *️⃣ Changed references to [OPC Foundation 1.5](https://www.nuget.org/packages/OPCFoundation.NetStandard.Opc.Ua) (previously was 1.4)
+
+## ✅ v4.4 - Maintained
+- **First release date**: 2025/04/07
+- **.NET versions**: netstandard2.0, net472, net5.0, net6.0, net7.0, net8.0
+- 💡 Use [OPC Foundation 1.4](https://www.nuget.org/packages/OPCFoundation.NetStandard.Opc.Ua)
+
+## ✅ v4.3 - Maintained
+- **First release date**: 2024/04/16
+- **.NET versions**: netstandard2.0, net472, net5.0, net6.0, net7.0, net8.0
+- 💡 Use [OPC Foundation 1.4](https://www.nuget.org/packages/OPCFoundation.NetStandard.Opc.Ua)
+
+## ⚠ v4.2 - Obsolete
+- **First release date**: 2024/02/09
+- **.NET versions**: netstandard2.0, net472, net5.0, net6.0, net7.0, net8.0
+- 🆕 Added support to net7.0
+- 🆕 Added support to net8.0
+
+
+## ❌ 4.1.* - EOS
+- **First release date**: 2024/02/08
+- **.NET versions**: netstandard2.0, net472, net5.0, net6.0
+
+## ❌ 4.0.* - EOS
+- **First release date**: 2023/08/12
+- **.NET versions**: netstandard2.0, net472, net5.0, net6.0
+
+## ❌ 3.2.* - EOS
+- **First release date**: 2023/10/08
+- **.NET versions**: netstandard2.0, net472, net5.0, net6.0
+
+## ❌ 3.1.* - EOS
+- **First release date**: 2023/05/29
+- **.NET versions**: netstandard2.0, net472, net5.0, net6.0
+- 🆕 Added support to net5.0 
+- 🆕 Added support to net6.0 
+
+## ❌ 3.0.* - EOS
+- **First release date**: 2022/09/30
+- **.NET versions**: netstandard2.0, net472
+
+## ❌ 2.0.* - EOS
+- **First release date**: 2020/04/27
+- **.NET versions**: netstandard2.0, net472 
+- 🆕 Added support to netstandard2.0 
+- 🆕 Added support to net472
+- ❌ Dropped support to net46
+
+## ❌ 1.0.* - EOS
+- **First release date**: 2017/09/27
+- **.NET versions**: net46
 
 ---
 
@@ -46,6 +102,7 @@ Every package contains a specific subset of functionalities related to a specifi
 Here follows a list of NuGet packages aggregated by topic.
 
 ## Application infrastructure and configuration
+Extensions to simplify the creation of application infrastructures.
 - [![DogmaSolutions.ApplicationInfrastructure on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.ApplicationInfrastructure.svg)](https://www.nuget.org/packages/DogmaSolutions.ApplicationInfrastructure/) DogmaSolutions.ApplicationInfrastructure
 - [![DogmaSolutions.AspNetCore on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.AspNetCore.svg)](https://www.nuget.org/packages/DogmaSolutions.AspNetCore/) DogmaSolutions.AspNetCore
 - [![DogmaSolutions.AspNetCore.Security on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.AspNetCore.Security.svg)](https://www.nuget.org/packages/DogmaSolutions.AspNetCore.Security/) DogmaSolutions.AspNetCore.Security
@@ -55,11 +112,13 @@ Here follows a list of NuGet packages aggregated by topic.
 - [![DogmaSolutions.Configuration.SqlServer on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Configuration.SqlServer.svg)](https://www.nuget.org/packages/DogmaSolutions.Configuration.SqlServer/) DogmaSolutions.Configuration.SqlServer
 
 ## Benchmarking and monitoring
+Basic functions to implement integrated benchmarks inside performance-aware applications.
 - [![DogmaSolutions.Benchmarking on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Benchmarking.svg)](https://www.nuget.org/packages/DogmaSolutions.Benchmarking/) DogmaSolutions.Benchmarking
 - [![DogmaSolutions.Benchmarking.MicrosoftLogging on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Benchmarking.MicrosoftLogging.svg)](https://www.nuget.org/packages/DogmaSolutions.Benchmarking.MicrosoftLogging/) DogmaSolutions.Benchmarking.MicrosoftLogging
 - [![DogmaSolutions.Prtg on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Prtg.svg)](https://www.nuget.org/packages/DogmaSolutions.Prtg/) DogmaSolutions.Prtg
 
 ## Security and cryptography
+Functionalities that extend and simplify the usage of existing cryptographic frameworks and security-aware libraries.
 - [![DogmaSolutions.Certificates on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Certificates.svg)](https://www.nuget.org/packages/DogmaSolutions.Certificates/) DogmaSolutions.Certificates
 - [![DogmaSolutions.Cryptography on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Cryptography.svg)](https://www.nuget.org/packages/DogmaSolutions.Cryptography/) DogmaSolutions.Cryptography
 - [![DogmaSolutions.AspNetCore.Security on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.AspNetCore.Security.svg)](https://www.nuget.org/packages/DogmaSolutions.AspNetCore.Security/) DogmaSolutions.AspNetCore.Security
@@ -69,6 +128,7 @@ Here follows a list of NuGet packages aggregated by topic.
 - [![DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions/) DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions
 
 ## Primitives, data modeling and data manipulation
+Utils to manipulate primitives and low-level data formats.
 - [![DogmaSolutions.Contracts on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Contracts.svg)](https://www.nuget.org/packages/DogmaSolutions.Contracts/) DogmaSolutions.Contracts
 - [![DogmaSolutions.Collections on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Collections.svg)](https://www.nuget.org/packages/DogmaSolutions.Collections/) DogmaSolutions.Collections
 - [![DogmaSolutions.Collections.Smart on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Collections.Smart.svg)](https://www.nuget.org/packages/DogmaSolutions.Collections.Smart/) DogmaSolutions.Collections.Smart
@@ -79,6 +139,7 @@ Here follows a list of NuGet packages aggregated by topic.
 - [![DogmaSolutions.Xml on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Xml.svg)](https://www.nuget.org/packages/DogmaSolutions.Xml/) DogmaSolutions.Xml
 
 # Low-level utils
+Low-level utils of various kinds.
 - [![DogmaSolutions.Statistics on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Statistics.svg)](https://www.nuget.org/packages/DogmaSolutions.Statistics/) DogmaSolutions.Statistics
 - [![DogmaSolutions.Tasking on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Tasking.svg)](https://www.nuget.org/packages/DogmaSolutions.Tasking/) DogmaSolutions.Tasking
 - [![DogmaSolutions.I18n on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.I18n.svg)](https://www.nuget.org/packages/DogmaSolutions.I18n/) DogmaSolutions.I18n
@@ -87,11 +148,13 @@ Here follows a list of NuGet packages aggregated by topic.
 - [![DogmaSolutions.Networking on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Networking.svg)](https://www.nuget.org/packages/DogmaSolutions.Networking/) DogmaSolutions.Networking
 
 ## Reflection
+Reflection functionalities and helpers to discover assemblies and types based on their features and contents.
 - [![DogmaSolutions.Reflection on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Reflection.svg)](https://www.nuget.org/packages/DogmaSolutions.Reflection/) DogmaSolutions.Reflection
 - [![DogmaSolutions.Reflection.Discovery on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Reflection.Discovery.svg)](https://www.nuget.org/packages/DogmaSolutions.Reflection.Discovery/) DogmaSolutions.Reflection.Discovery
 
 
 ## Design abstractions and Design Patterns
+Classes, interfaces, datamodels and basic implementations of commonly used design patterns
 - [![DogmaSolutions.DataContracts on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.DataContracts.svg)](https://www.nuget.org/packages/DogmaSolutions.DataContracts/) DogmaSolutions.DataContracts
 - [![DogmaSolutions.DesignPatterns on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.DesignPatterns.svg)](https://www.nuget.org/packages/DogmaSolutions.DesignPatterns/) DogmaSolutions.DesignPatterns
 - [![DogmaSolutions.StateMachines on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.StateMachines.svg)](https://www.nuget.org/packages/DogmaSolutions.StateMachines/) DogmaSolutions.StateMachines
@@ -99,22 +162,23 @@ Here follows a list of NuGet packages aggregated by topic.
 - [![DogmaSolutions.Services.Serialization on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Services.Serialization.svg)](https://www.nuget.org/packages/DogmaSolutions.Services.Serialization/) DogmaSolutions.Services.Serialization
 
 ## Industrial automation and system integration
+Functionalities to build supervisors of industrial devices.
 - [![DogmaSolutions.Devices on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Devices.svg)](https://www.nuget.org/packages/DogmaSolutions.Devices/) DogmaSolutions.Devices
 - [![DogmaSolutions.Devices.I40 on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Devices.I40.svg)](https://www.nuget.org/packages/DogmaSolutions.Devices.I40/) DogmaSolutions.Devices.I40
 
-**IBH devices**
+**IBH devices**: functionalities to build supervisors of industrial devices based on IBH technology
 - [![DogmaSolutions.Devices.Ibh on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Devices.Ibh.svg)](https://www.nuget.org/packages/DogmaSolutions.Devices.Ibh/) DogmaSolutions.Devices.Ibh
 - [![DogmaSolutions.Devices.Ibh.I40 on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Devices.Ibh.I40.svg)](https://www.nuget.org/packages/DogmaSolutions.Devices.Ibh.I40/) DogmaSolutions.Devices.Ibh.I40
 
-**Siemens devices**
+**Siemens devices**: functionalities to build supervisors of industrial devices based on Siemens S7 technology
 - [![DogmaSolutions.Devices.Siemens on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Devices.Siemens.svg)](https://www.nuget.org/packages/DogmaSolutions.Devices.Siemens/) DogmaSolutions.Devices.Siemens
 - [![DogmaSolutions.Devices.Siemens.I40 on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Devices.Siemens.I40.svg)](https://www.nuget.org/packages/DogmaSolutions.Devices.Siemens.I40/) DogmaSolutions.Devices.Siemens.I40
 
-**OPC-UA-abled devices**
+**OPC-UA-abled devices**: functionalities to build supervisors of industrial devices able to communicate via OPC-UA
 - [![DogmaSolutions.Devices.Opc.Ua on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Devices.Opc.Ua.svg)](https://www.nuget.org/packages/DogmaSolutions.Devices.Opc.Ua/) DogmaSolutions.Devices.Opc.Ua
 - [![DogmaSolutions.Devices.Opc.Ua.Abstractions on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Devices.Opc.Ua.Abstractions.svg)](https://www.nuget.org/packages/DogmaSolutions.Devices.Opc.Ua.Abstractions/) DogmaSolutions.Devices.Opc.Ua.Abstractions
 
-**OPC-UA integration**
+**OPC-UA integration**: services, utils and extensions to build OPC-UA clients, servers and supervisors
 - [![DogmaSolutions.Opc.Ua.Client on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Opc.Ua.Client.svg)](https://www.nuget.org/packages/DogmaSolutions.Opc.Ua.Client/) DogmaSolutions.Opc.Ua.Client
 - [![DogmaSolutions.Opc.Ua.Server on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Opc.Ua.Server.svg)](https://www.nuget.org/packages/DogmaSolutions.Opc.Ua.Server/) DogmaSolutions.Opc.Ua.Server
 - [![DogmaSolutions.Opc.Ua.Server.Abstractions on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Opc.Ua.Server.Abstractions.svg)](https://www.nuget.org/packages/DogmaSolutions.Opc.Ua.Server.Abstractions/) DogmaSolutions.Opc.Ua.Server.Abstractions
@@ -123,41 +187,48 @@ Here follows a list of NuGet packages aggregated by topic.
 
 
 ## Media
+Images and videos manipulation
 - [![DogmaSolutions.Drawing on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Drawing.svg)](https://www.nuget.org/packages/DogmaSolutions.Drawing/) DogmaSolutions.Drawing
 - [![DogmaSolutions.Mjpeg on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Mjpeg.svg)](https://www.nuget.org/packages/DogmaSolutions.Mjpeg/) DogmaSolutions.Mjpeg
 
 ## Data, database and entities
+Extensions and basic functionalities to build data-management layers and infrastructures.
 - [![DogmaSolutions.Data on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Data.svg)](https://www.nuget.org/packages/DogmaSolutions.Data/) DogmaSolutions.Data
 - [![DogmaSolutions.Data.Materialization on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Data.Materialization.svg)](https://www.nuget.org/packages/DogmaSolutions.Data.Materialization/) DogmaSolutions.Data.Materialization
 - [![DogmaSolutions.Data.Sql on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Data.Sql.svg)](https://www.nuget.org/packages/DogmaSolutions.Data.Sql/) DogmaSolutions.Data.Sql
 - [![DogmaSolutions.Entities.Contracts on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Entities.Contracts.svg)](https://www.nuget.org/packages/DogmaSolutions.Entities.Contracts/) DogmaSolutions.Entities.Contracts
 - [![DogmaSolutions.EntityFrameworkCore.AspNetCore on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.AspNetCore.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.AspNetCore/) DogmaSolutions.EntityFrameworkCore.AspNetCore
-- [![DogmaSolutions.EntityFrameworkCore.Auditing on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Auditing.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Auditing/) DogmaSolutions.EntityFrameworkCore.Auditing
+- [![DogmaSolutions.EntityFrameworkCore.Auditing on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Auditing.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Auditing/) DogmaSolutions.EntityFrameworkCore.Auditing → utils to facilitate the implementation of auditing functionalities at DatabaseContext-level
 - [![DogmaSolutions.EntityFrameworkCore.Contracts on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Contracts.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Contracts/) DogmaSolutions.EntityFrameworkCore.Contracts
-- [![DogmaSolutions.EntityFrameworkCore.Secured on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Secured.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Secured/) DogmaSolutions.EntityFrameworkCore.Secured
-- [![DogmaSolutions.EntityFrameworkCore.Unsecured on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Unsecured.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Unsecured/) DogmaSolutions.EntityFrameworkCore.Unsecured
+- [![DogmaSolutions.EntityFrameworkCore.Secured on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Secured.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Secured/) DogmaSolutions.EntityFrameworkCore.Secured → utils to facilitate the implementation of data-access services including security checks
+- [![DogmaSolutions.EntityFrameworkCore.Unsecured on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Unsecured.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Unsecured/) DogmaSolutions.EntityFrameworkCore.Unsecured → utils to facilitate the implementation of data-access services without security checks
 - [![DogmaSolutions.EntityFrameworkCore.Utils on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Utils.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Utils/) DogmaSolutions.EntityFrameworkCore.Utils
-- [![DogmaSolutions.EntityFrameworkCore.Encryption on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Encryption.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Encryption/) DogmaSolutions.EntityFrameworkCore.Encryption
+- [![DogmaSolutions.EntityFrameworkCore.Encryption on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Encryption.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Encryption/) DogmaSolutions.EntityFrameworkCore.Encryption → utils to facilitate column encryption using a configurable key
+- [![DogmaSolutions.EntityFrameworkCore.Checks on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Checks.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Checks/) DogmaSolutions.EntityFrameworkCore.Checks → utils to create check constraints
 - [![DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions.svg)](https://www.nuget.org/packages/DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions/) DogmaSolutions.EntityFrameworkCore.Encryption.Abstractions
 - [![DogmaSolutions.SqlServer.LocalDb on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.SqlServer.LocalDb.svg)](https://www.nuget.org/packages/DogmaSolutions.SqlServer.LocalDb/) DogmaSolutions.SqlServer.LocalDb
 
 ## Plugins and extensibility
+Extensions for lightweight extensibility and pluggability management.
 - [![DogmaSolutions.Extensibility on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Extensibility.svg)](https://www.nuget.org/packages/DogmaSolutions.Extensibility/) DogmaSolutions.Extensibility
 - [![DogmaSolutions.Extensibility.HostedEnvironment on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Extensibility.HostedEnvironment.svg)](https://www.nuget.org/packages/DogmaSolutions.Extensibility.HostedEnvironment/) DogmaSolutions.Extensibility.HostedEnvironment
 
 ## Logging
+Multiple extensions to industry-standard logging libraries.
 - [![DogmaSolutions.Log4NetExtensions on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Log4NetExtensions.svg)](https://www.nuget.org/packages/DogmaSolutions.Log4NetExtensions/) DogmaSolutions.Log4NetExtensions
 - [![DogmaSolutions.MicrosoftLoggingExtensions on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.MicrosoftLoggingExtensions.svg)](https://www.nuget.org/packages/DogmaSolutions.MicrosoftLoggingExtensions/) DogmaSolutions.MicrosoftLoggingExtensions
-
 - [![DogmaSolutions.SlidingWindowLogger on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.SlidingWindowLogger.svg)](https://www.nuget.org/packages/DogmaSolutions.SlidingWindowLogger/) DogmaSolutions.SlidingWindowLogger
 
 ## Validation
+Extensions and utils for datamodels validations
 - [![DogmaSolutions.Validation on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Validation.svg)](https://www.nuget.org/packages/DogmaSolutions.Validation/) DogmaSolutions.Validation
 
 ## Automated testing
+Helper functions and classes for automated tests implementation
 - [![DogmaSolutions.Tests on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Tests.svg)](https://www.nuget.org/packages/DogmaSolutions.Tests/) DogmaSolutions.Tests
 
 ## Anagraphics models
+Basic archetypes and datamodels of commonly used anagraphic entities 
 - [![DogmaSolutions.Anagraphics on NuGet](https://img.shields.io/nuget/v/DogmaSolutions.Anagraphics.svg)](https://www.nuget.org/packages/DogmaSolutions.Anagraphics/) DogmaSolutions.Anagraphics
 
 ---
